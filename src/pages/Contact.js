@@ -129,7 +129,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../styles/Contact.css";
 import "aos/dist/aos.css";
-import contact from '../pictures/contact-image.jpg'
+import contact from '../pictures/contact.jpg'
 
 
 
@@ -337,17 +337,22 @@ export default function ContactUs() {
       </div>
 
       {/* Google Map */}
-      <div className="map-container">
+      <h1 style={{textAlign:'center'}}>You can use this map for physical directions </h1>
+      <div className="map-container" style={{justifyContent:'center', display:'flex'}}>
+
         <iframe
+        
           title="Timeless Mining Location"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.862447909388!2d32.60513637457558!3d0.35504389960826744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc4e1e2a8fcd%3A0x6b36419a8b9b9c11!2sNtinda%20Complex!5e0!3m2!1sen!2sug!4v1708451128000!5m2!1sen!2sug"
           width="100%"
           height="400"
-          style={{ border: 0 }}
+          style={{ border: 0, width:'70%', border:'2px solid purple', borderRadius:'10px' }}
           allowFullScreen=""
           loading="lazy"
         ></iframe>
       </div>
+
+      <br/><br/>
     </div>
   );
 }

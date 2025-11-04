@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import about1 from '../pictures/about-image.jpg';
 import about2 from '../pictures/mining.jpg';
 import about3 from '../pictures/pic-2.jpg';
-import about4 from '../pictures/home-image.jpg'
+import pic4 from '../pictures/pic4.jpg'
 
 export default function About() {
   return (
@@ -71,7 +71,7 @@ export default function About() {
       <div
         className="overall-section my-5 text-center text-white d-flex flex-column justify-content-center align-items-center"
         style={{
-          backgroundImage:  `url(${about4})`,
+          backgroundImage:  `url(${pic4})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

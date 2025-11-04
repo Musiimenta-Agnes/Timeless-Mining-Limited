@@ -8,8 +8,9 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/services.css"
 import service1 from '../pictures/about-image.jpg';
-import service2 from '../pictures/mining.jpg';
-import service3 from '../pictures/pic-2.jpg';
+import electricity from '../pictures/electricity.jpg';
+import certificate from '../pictures/certificate.jpg';
+import petroleum from '../pictures/petroleum.jpg'
 
 
 
@@ -50,6 +51,9 @@ export default function Services() {
           </div>
         </div>
 
+<br/><br/>
+
+
         {/* --- Electricity Supply --- */}
         <div className="col-md-6">
           <div className="service-card d-flex flex-column flex-md-row align-items-center">
@@ -71,8 +75,35 @@ export default function Services() {
                <Link to="/electricity" className="btn btn-purple mt-3" onClick={handleLinkClick}>Read More</Link>
             </div>
             <img
-              src={service2}
+              src={electricity}
               alt="Electricity Supply"
+              className="service-image rounded-4 shadow-sm mb-4 mb-md-0 order-1 order-md-2"
+            />
+          </div>
+        </div>
+
+
+
+
+        {/* --- Petroleum --- */}
+        <div className="col-md-6">
+          <div className="service-card d-flex flex-column flex-md-row align-items-center">
+            <div className="order-2 order-md-1 me-md-4">
+              <h4 className="fw-bold text-purple mb-3">Petroleum Supply</h4>
+              <p className="text-dark">
+                Timeless Mining Company is involved in the sourcing, refining, and distribution of petroleum products to support industrial, commercial, 
+                and regional energy needs. 
+              </p>
+              <p className="text-dark">
+                We prioritize safety, quality control,
+                 and responsible handling throughout the entire supply chain to ensure reliable and efficient fuel delivery.
+              </p>
+        
+               {/* <Link to="/electricity" className="btn btn-purple mt-3" onClick={handleLinkClick}>Read More</Link> */}
+            </div>
+            <img
+              src={{petroleum}}
+              alt="petroleum"
               className="service-image rounded-4 shadow-sm mb-4 mb-md-0 order-1 order-md-2"
             />
           </div>
@@ -82,7 +113,7 @@ export default function Services() {
         <div className="col-md-6 mx-auto">
           <div className="service-card d-flex flex-column flex-md-row align-items-center">
             <img
-              src={service3}
+              src={certificate}
               alt="Licensed Certification"
               className="service-image rounded-4 shadow-sm mb-4 mb-md-0 me-md-4"
             />

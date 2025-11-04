@@ -1,8 +1,9 @@
 .footer-section {
   background-color: #111;
   color: #fff;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 10px;
+  height: 100%;
 }
 
 .footer-logo {

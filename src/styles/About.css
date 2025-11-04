@@ -15,7 +15,7 @@
 
 /* Core values */
 .core-values {
-  border: 2px solid #8b00b8;
+  border: 1px solid #8b00b8;
   border-radius: 12px;
   max-width: 1000px;
   background-color: #fff;
@@ -48,7 +48,7 @@
 }
 .partners-box {
   background-color: #fff;
-  border: 2px solid #8b00b8;
+  border: 1px solid #8b00b8;
   border-radius: 12px;
   max-width: 900px;
 }

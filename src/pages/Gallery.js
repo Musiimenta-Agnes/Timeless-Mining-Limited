@@ -9,7 +9,7 @@ import "../styles/Gallery.css";
 import gallery1 from "../pictures/pic-10.jpg";
 import gallery2 from "../pictures/pic-11.jpg";
 import gallery3 from "../pictures/pic-2.jpg";
-import gallery4 from "../pictures/pic-3.jpg";
+import gallery4 from "../pictures/pic3.jpg";
 import gallery5 from "../pictures/pic-4.jpg";
 import gallery6 from "../pictures/pic-6.jpg";
 import gallery7 from "../pictures/pic-7.jpg";

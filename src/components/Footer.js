@@ -5,7 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './Footer.css';
 import '../pictures/electricity.jpg'
-import foot from '../pictures/electricity.jpg'
+import pic3 from '../pictures/pic3.jpg'
 
 export default function OurFooter() {
   return (
@@ -16,7 +16,7 @@ export default function OurFooter() {
           <div className="col-md-4 text-center text-md-start mb-4 mb-md-0">
             <h5 className="fw-bold mb-3 text-white">Timeless Mining Ltd</h5>
             <img
-              src={foot}
+              src={pic3}
               alt="Timeless Mining Logo"
               className="footer-logo mb-3"
             />
@@ -34,13 +34,16 @@ export default function OurFooter() {
             </ul>
           </div>
           
+          
 
           {/* Contact Info */}
           <div className="col-md-4 text-center text-md-start">
             <h5 className="fw-bold mb-3 text-white">Contact Us</h5>
-            <p className="mb-1">timelessmining@gmail.com</p>
-            <p className="mb-1">039267845966</p>
-            <p>Kampala - Uganda</p>
+            <p className="mb-1"> <b>Email: </b> timelessmining@gmail.com</p>
+            <br/> <br/>
+            <p className="mb-1"><b>Contact:  </b> 039267845966</p>
+            <br/> <br/>
+            <p> <b>Location: </b> Kampala - Uganda (Ntinda)</p>
           </div>
         </div>
       </div>
