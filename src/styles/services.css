@@ -1,0 +1,46 @@
+.services-page {
+  background-color: #fff;
+}
+
+.text-purple {
+  color: #8b00b8;
+}
+
+.btn-purple {
+  background-color: #8b00b8;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+.btn-purple:hover {
+  background-color: #6b0092;
+  color: #fff;
+}
+
+.service-card {
+  background-color: #fff;
+  border: 2px solid #8b00b8;
+  border-radius: 14px;
+  padding: 20px;
+  height: 100%;
+}
+
+.service-image {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #8b00b8;
+}
+
+@media (max-width: 767px) {
+  .service-card {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .service-image {
+    max-width: 100%;
+  }
+}
