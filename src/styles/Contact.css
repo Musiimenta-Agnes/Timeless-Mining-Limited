@@ -1,0 +1,51 @@
+.contact-page {
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.contact-hero {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text-pink {
+  color: rgb(67, 155, 231);
+}
+
+.text-purple {
+  color: #8b00b8;
+}
+
+.contact-box {
+  background-color: #fefbfd;
+  border: 1px solid #8b00b8;
+}
+
+.contact-input {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.contact-input:focus {
+  border-color: #8b00b8;
+  box-shadow: 0 0 4px rgba(139, 0, 184, 0.4);
+}
+
+.btn-purple {
+  background-color: #8b00b8;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.btn-purple:hover {
+  background-color: #6b0092;
+}
+
+.map-container iframe {
+  width: 100%;
+  border: none;
+  margin-top: 30px;
+}

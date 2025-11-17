@@ -1,0 +1,37 @@
+.footer-section {
+  background-color: #111;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+}
+
+.footer-logo {
+  width: 250px;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #c66bff;
+}
+
+.footer-line {
+  border-top: 3px solid white;
+  margin: 20px 0;
+}
+
+.copyright {
+  color: #ccc;
+  font-size: 0.9rem;
+}

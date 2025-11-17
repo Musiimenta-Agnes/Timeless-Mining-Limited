@@ -1,0 +1,50 @@
+.license-page {
+  background-color: #fff5fa;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-purple {
+  color: #800080;
+}
+
+.license-header p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.license-grid {
+  margin-top: 40px;
+}
+
+.license-card {
+  background: #fff;
+  border: 1px solid #e0c2f5;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  height: 400px;
+}
+
+.license-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.license-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.license-desc {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}

@@ -1,0 +1,98 @@
+/* ============================
+   ORIGINAL CODE (UNCHANGED)
+   ============================ */
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.47);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+/* ============================
+   RESPONSIVE FIXES ADDED BELOW
+   ============================ */
+
+/* Tablet & Mobile (≤ 768px) */
+@media (max-width: 768px) {
+
+  .hero-section {
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem !important;
+    line-height: 2.4rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem !important;
+    max-width: 100% !important;
+    padding: 0 10px;
+  }
+
+  /* Stack buttons vertically */
+  .hero-content .d-flex {
+    flex-direction: column !important;
+    gap: 15px !important;
+    width: 100%;
+  }
+
+  .hero-content .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  /* Slightly lighter overlay for mobile visibility */
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* Extra Small Phones (≤ 480px) */
+@media (max-width: 480px) {
+
+  .hero-content h1 {
+    font-size: 1.7rem !important;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .hero-content .btn {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
