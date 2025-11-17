@@ -27,7 +27,7 @@ import Image21 from "../pictures/mineral4.jpg";
 import Image22 from "../pictures/mineral5.jpg";
 import Image23 from "../pictures/mineral6.jpg";
 import Image24 from "../pictures/mining4.jpg";
-//import Image25 from "../pictures/mining5.jpg";
+import Image25 from "../pictures/mining5.jpg";
 
 export default function Gallery() {
   const [filter, setFilter] = useState("All");

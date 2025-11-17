@@ -4,7 +4,7 @@ import './Whatsapp.css';
 
 const WhatsAppButton = () => {
   const adminPhone = '+256 770996204'; 
-  const defaultMessage = encodeURIComponent("Hello Agnes, I need to talk to you more.");
+  const defaultMessage = encodeURIComponent("Hello Timeless, I need to talk to you more");
 
   const handleClick = () => {
     const isMobile = /iPhone|Android|iPad|iPod/i.test(navigator.userAgent);

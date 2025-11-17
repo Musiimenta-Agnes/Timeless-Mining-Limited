@@ -55,7 +55,7 @@ export default function Services() {
         
 
         .btn-purple:hover {
-          background: orange;
+          background: black;
           color: white;
         }
       `}</style>
@@ -67,7 +67,7 @@ export default function Services() {
     borderRadius: "15px",
     boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
     borderBottom: "5px solid #6f42c1",
-    borderLeft: "5px solid #950fd3ff",
+    borderLeft: "5px solid #6f42c1",
   }}>
           <h2 className="fw-bold text-purple">Our Services</h2>
           <p className="lead text-dark mt-3">

@@ -6,7 +6,7 @@
 .gallery-title {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #bf02a6;
+  color: #950fd3ff;
 }
 
 .gallery-filters {
@@ -25,7 +25,7 @@
 
 .filter-btn:hover,
 .filter-btn.active {
-  background: rgb(179, 4, 144);
+  background: #950fd3ff;
   color: white;
 }
 
