@@ -27,7 +27,9 @@ import Image21 from "../pictures/mineral4.jpg";
 import Image22 from "../pictures/mineral5.jpg";
 import Image23 from "../pictures/mineral6.jpg";
 import Image24 from "../pictures/mining4.jpg";
-import Image25 from "../pictures/mining5.jpg";
+import Image26 from "../pictures/mypic.jpg";
+import Image27 from "../pictures/mypic2.jpg";
+import Image28 from "../pictures/mypic3.jpg";
 
 export default function Gallery() {
   const [filter, setFilter] = useState("All");
@@ -59,13 +61,17 @@ export default function Gallery() {
     { id: 11, src: Image11, category: "Minerals", caption: "Raw Minerals" },
     { id: 21, src: Image21, category: "Minerals", caption: "Mineral Resources" },
     { id: 22, src: Image22, category: "Minerals", caption: "Mineral Deposit" },
-    { id: 23, src: Image23, category: "Minerals", caption: "Mineral Processing" },
+    //{ id: , src: Image23, category: "Minerals", caption: "Mineral Processing" },
 
     // ---------------- Partners ----------------
     { id: 5, src: Image5, category: "Partners", caption: "Fuel Partners" },
     { id: 6, src: Image6, category: "Partners", caption: "Station Partners" },
     { id: 17, src: Image17, category: "Partners", caption: "Logistics Partners" },
     { id: 18, src: Image18, category: "Partners", caption: "Energy Partners" },
+    { id: 30, src: Image26, category: "Partners", caption: "Mining Team" },
+    { id: 27, src: Image27, category: "Partners", caption: "Mineral partners" },
+    { id: 28, src: Image28, category: "Partners", caption: "Mineral Team" },
+    { id: 29, src: Image23, category: "Minerals", caption: "Mineral Processing" },
   ];
 
   // FILTER IMAGES

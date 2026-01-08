@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import about1 from '../pictures/p1.png';
 import about2 from '../pictures/uetcl.png';
 import about3 from '../pictures/p3.png';
-//import about4 from '../pictures/image.jpeg';
+import about4 from '../pictures/partner5.jpg';
 
 import pic4 from '../pictures/p5.jpg'
 
@@ -216,6 +216,13 @@ export default function About() {
               <img
                 src={about2}
                 alt="UETCL"
+                className="img-fluid partner-logo"
+              />
+            </div>
+             <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+              <img
+                src={about4}
+                alt="Ministry"
                 className="img-fluid partner-logo"
               />
             </div>
